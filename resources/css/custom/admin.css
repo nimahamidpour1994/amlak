@@ -1,0 +1,331 @@
+@font-face {
+    font-family: AdminIranSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/iransans-num-fa/eot/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/iransans-num-fa/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/iransans-num-fa/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/iransans-num-fa/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/iransans-num-fa/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: AdminYekanWeb;
+    src: url("../fonts/iranyekan/IRANYekanWeb.woff");
+    src: url("../fonts/iranyekan/IRANYekanWeb.woff2");
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+}
+/********** sidebar *****************/
+@media screen and (max-width: 600px) {
+    .menu-padding{
+        padding-bottom: 15px!important;
+        padding-top: 15px!important;
+    }
+    .menu-padding-no-icon{
+        padding-bottom: 10px!important;
+        padding-top: 15px!important;
+    }
+    .sidebar-width
+    {
+        width: 115px!important;
+        font-size:13px!important; ;
+    }
+}
+@media screen and (min-width: 600px) {
+    .menu-padding{
+        padding-bottom: 15px!important;
+    }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/********** sidebar *****************/
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#wrapper #content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 80px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    line-height: 46px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+    color: white;
+}
+
+.scroll-to-top:hover {
+    background: #343a40;
+}
+
+.scroll-to-top i {
+    font-weight: 800;
+}
+
+.smaller {
+    font-size: 0.7rem;
+}
+
+.o-hidden {
+    overflow: hidden !important;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.navbar-nav .form-inline .input-group {
+    width: 100%;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-toggle::after {
+    width: 1rem;
+    text-align: center;
+    float: left;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+}
+/********** sidebar *****************/
+
+/********** admin login *****************/
+
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+
+/********** admin login *****************/
+
+/********** admin color *****************/
+
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #10119b;
+    background: linear-gradient(to right, #241cbc,#10119b);
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    width: 145px;
+    margin-top: 35px;
+}
+.form_container {
+    margin-top: 100px;
+}
+.login_btn {
+    width: 100%;
+    background: #10119b;
+    background: linear-gradient(to right, #241cbc,#10119b);
+    color: white !important;
+}
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: #10119b;
+    background: linear-gradient(to right, #241cbc,#10119b);
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background: #10119b;
+    background: linear-gradient(to right, #241cbc,#10119b);
+}
+
+.bg-admin{
+    background: #10119b;
+    background: linear-gradient(to right, #241cbc,#10119b);
+}
+
+.text-admin{
+    color: #0c0d75 !important;
+}
+/********** admin color *****************/
+
+
+.admin-input-label{
+    font-family: iranYekanWeb!important;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.admin-input{
+    font-family: AdminIranSans!important;
+    font-size:14px;
+}
+
+.pagetitle {
+    font-family: AdminYekanWeb!important;
+    font-size:15px;
+    font-weight: bold;
+    color: #0c0d75!important;
+}
+
+.admin-black {
+    color: #000000;
+    font-family: AdminIranSans!important;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.admin-success {
+    color: #008000;
+    font-family: AdminIranSans!important;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.admin-danger {
+    color: #cc0000;
+    font-family: AdminIranSans!important;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.admin-secondary {
+    color: #646464;
+    font-family: AdminIranSans!important;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.admin-info {
+    color: #1B17A7;
+    font-family: AdminIranSans!important;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.admin-submit {
+    background: #0c0d75!important;
+    color: white!important;
+    font-family: AdminYekanWeb!important;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto!important;
+}
+
+.admin-a{
+    font-family: AdminIranSans!important;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.admin-h1{
+    font-family: AdminYekanWeb!important;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right!important;
+}
+
+.admin-div-table {
+    padding-right: 15px!important;
+    padding-left: 15px!important;;
+}
+
+.admin-table-hr-row {
+    background: #0c0d75!important;
+    color: white;
+
+    text-align: center!important;
+}
+
+.admin-table-hr {
+    font-family: AdminYekanWeb!important;
+    font-size:15px;
+}
+
+.admin-table-img {
+    height: 50px!important;
+    width: 50px!important;
+}
+
+.admin-form{
+    direction: rtl!important;
+    text-align: right!important;
+    margin-top: 20px;
+    padding-right: 20px!important;
+    padding-left: 20px!important;;
+    padding-top: 30px!important;;
+    padding-bottom: 30px!important;;
+    border: 1px solid #c6c6c6;
+    border-radius:15px;
+}
+
+.admin-form-img{
+    border: 1px dashed #cecece;
+    height: 100px!important;
+    width: 100px!important;
+    margin-top: 20px!important;
+}

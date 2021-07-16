@@ -1,0 +1,8 @@
+[11-Jul-2021 08:39:08 Asia/Tehran] PHP Parse error:  Invalid numeric literal in  on line 286154
+[11-Jul-2021 08:39:08 Asia/Tehran] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/amlakesfahan/divar/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php on line 80
+[11-Jul-2021 16:49:57 Asia/Tehran] PHP Parse error:  Invalid numeric literal in  on line 286154
+[11-Jul-2021 16:49:57 Asia/Tehran] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/amlakesfahan/divar/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php on line 80
+[11-Jul-2021 17:54:55 Asia/Tehran] PHP Parse error:  Invalid numeric literal in  on line 286154
+[11-Jul-2021 17:54:55 Asia/Tehran] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/amlakesfahan/divar/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php on line 80
+[12-Jul-2021 18:04:31 Asia/Tehran] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 60817592 bytes) in /home/amlakesfahan/divar/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 203
+[13-Jul-2021 01:00:18 Asia/Tehran] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 56623200 bytes) in /home/amlakesfahan/divar/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 203
